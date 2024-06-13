@@ -6,12 +6,24 @@
     padding: 0;
 }
 body {
+    color: white;
     background: black;
 }
 header {
     display: flexbox;
     text-align: center;
-    color: white;
     font-size: 9pt;
     font-family: "Permanent Marker", cursive;
+}
+.li_aeronaves {
+    list-style-type: none;
+    margin: 20px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 300px;
+    height: auto;
+}
+.li_aeronaves h1 {
+    text-align: center;
 }

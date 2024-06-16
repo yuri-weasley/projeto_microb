@@ -29,11 +29,17 @@ header {
     padding-top: 5px;
 }
 .li_aeronaves div.texto p {
-    font-size: 1em;
+    line-height: 2em;
+    font-size: 1.2em;
     display: flexbox;
     align-items: center;
     justify-content: center;
+    text-align: center;
     padding: 10px;
+}
+.li_aeronaves div.texto p button {
+    background-color: black;
+    cursor: pointer;
 }
 .li_aeronaves div.img img {
     border-radius: 10px;

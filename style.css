@@ -24,6 +24,17 @@ header {
     width: 300px;
     height: auto;
 }
-.li_aeronaves h1 {
+.li_aeronaves div.texto h1 {
     text-align: center;
+    padding-top: 5px;
+}
+.li_aeronaves div.texto p {
+    font-size: 1em;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.li_aeronaves div.img img {
+    border-radius: 10px;
 }

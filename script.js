@@ -1,5 +1,9 @@
 const botaoEditar = document.querySelector('.botaoEditar');
+const form = document.querySelector('form');
 
 botaoEditar.addEventListener('click', () => {
-    window.prompt('Qual a data de realização do último teste?');
+    form.classList.toggle('hidden');
+
+    const corpo = document.querySelector('body')
+    corpo.style.backgroundColor.opacity = '0.5';
 })

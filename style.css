@@ -15,9 +15,11 @@ body {
 form {
     position: absolute;
     top: auto;
-    left: 44%;
+    left: 43.5%;
     display: flex;
     flex-direction: column;
+    text-align: center;
+    align-items: center;
     color: black;
     width: 170px;
     height: 90px;
